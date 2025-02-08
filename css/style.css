@@ -450,15 +450,15 @@ select {
 }
 
 .home .intro img {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     display: inline-block;
     border: 8px solid #ffffff;
 }
 
 .home .intro h1 {
-    font-size: 30px;
+    font-size: 40px;
     color: #302e4d;
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
@@ -466,7 +466,7 @@ select {
 }
 
 .home .intro span {
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 500;
     margin: 0;
     line-height: 22px;
@@ -479,17 +479,18 @@ select {
 }
 
 .home .intro .social-links a {
-    height: 35px;
-    width: 35px;
+    height: 45px;
+    width: 45px;
     display: inline-block;
     text-align: center;
-    line-height: 35px;
+    line-height: 45px;
     color: #ffffff;
-    margin: 0 4px;
+    margin: 0 10px;
     border-radius: 40%;
     text-decoration: none;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    font-size: 22px;
 }
 
 .home .intro .social-links a:hover {
