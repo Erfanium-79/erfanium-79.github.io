@@ -1,0 +1,136 @@
+
+
+
+
+<div class="row">
+              <div class="about-column education padd-15">
+                <h3 class="title">Education</h3>
+                <div class="timeline-box padd-15">
+                  <div class="timeline shadow-dark">
+                    <!-- timeline items here -->
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2021 - 2025</h6>
+                          <h4 class="timeline-title">B.Sc In Computer Engineering</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                            nisi semper, et elementum lorem ornare.</p>
+                        </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="about-column experience padd-15">
+                <h3 class="title">Experience</h3>
+                <div class="timeline-box padd-15">
+                  <div class="timeline shadow-dark">
+                    <!-- timeline items here -->
+
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2013 - 2015</h6>
+                          <h4 class="timeline-title">Backend Developer</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                            nisi semper, et elementum lorem ornare.</p>
+                        </div>
+                        <!-- timeline Item End -->
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2011 - 2013</h6>
+                          <h4 class="timeline-title">Frontend Developer</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                            nisi semper, et elementum lorem ornare.</p>
+                        </div>
+                        <!-- timeline Item End -->
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2008 - 2011</h6>
+                          <h4 class="timeline-title">Graphic Designer</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                            nisi semper, et elementum lorem ornare.</p>
+                        </div>
+                        <!-- timeline Item End -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="about-column work padd-15">
+                <h3 class="title">Work</h3>
+                <div class="timeline-box padd-15">
+                  <div class="timeline shadow-dark">
+                    <!-- timeline items here -->
+
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2013 - 2015</h6>
+                          <h4 class="timeline-title">Backend Developer</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                            nisi semper, et elementum lorem ornare.</p>
+                        </div>
+                        <!-- timeline Item End -->
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2011 - 2013</h6>
+                          <h4 class="timeline-title">Frontend Developer</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                            nisi semper, et elementum lorem ornare.</p>
+                        </div>
+                        <!-- timeline Item End -->
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2008 - 2011</h6>
+                          <h4 class="timeline-title">Graphic Designer</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                            nisi semper, et elementum lorem ornare.</p>
+                        </div>
+                        <!-- timeline Item End -->
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="about-column education padd-15">
+                <h3 class="title">Education</h3>
+                <div class="timeline-box padd-15">
+                  <div class="timeline shadow-dark">
+                    <!-- timeline items here -->
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2021 - 2025</h6>
+                          <h4 class="timeline-title">B.Sc In Computer Engineering</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                            nisi semper, et elementum lorem ornare.</p>
+                        </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="about-column experience padd-15">
+                <h3 class="title">Experience</h3>
+                <div class="timeline-box padd-15">
+                  <div class="timeline shadow-dark">
+                    <div class="timeline-text">
+                      <ul>
+                        <li>Main point 1</li>
+                        <li>Main point 2
+                          <ul>
+                            <li>Sub-point A</li>
+                            <li>Sub-point B</li>
+                          </ul>
+                        </li>
+                        <li>Main point 3</li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>

@@ -10,10 +10,10 @@ window.addEventListener('load', function(){
 
 // iTyped 
 
-window.ityped.init(document.querySelector('.iTyped'), {
-    strings: ["Skinny or Tupor?"],
-    loop: true
-});
+// window.ityped.init(document.querySelector('.iTyped'), {
+//     strings: ["The world only makes sense if you force it to."],
+//     loop: false
+// });
 
 // Portfolio Item Filter
 
