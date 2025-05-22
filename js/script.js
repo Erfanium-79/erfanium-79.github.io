@@ -1,4 +1,3 @@
-
 // Preloader
 
 window.addEventListener('load', function(){
@@ -10,9 +9,10 @@ window.addEventListener('load', function(){
 
 // iTyped 
 
+
 // window.ityped.init(document.querySelector('.iTyped'), {
-//     strings: ["The world only makes sense if you force it to."],
-//     loop: false
+//     strings: ["Skinny or Tupor?"],
+//     loop: true
 // });
 
 // Portfolio Item Filter
@@ -175,16 +175,53 @@ function showSection(element)
     document.querySelector('#'+target).classList.add('active');
 }
 
-const navTogglerBtn = document.querySelector('.nav-toggler'),
-    aside = document.querySelector('.aside');
+// Complete rewrite of the nav toggler functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const navTogglerBtn = document.querySelector('.nav-toggler');
+    const aside = document.querySelector('.aside');
+    
+    // Debugging check
+    console.log('Nav toggler element:', navTogglerBtn);
+    console.log('Aside element:', aside);
+    
+    if (navTogglerBtn && aside) {
+        navTogglerBtn.addEventListener('click', function(e) {
+            console.log('Nav toggler clicked');
+            e.preventDefault();
+            
+            // Toggle classes for menu visibility
+            aside.classList.toggle('open');
+            navTogglerBtn.classList.toggle('open');
+            
+            // Toggle sections
+            document.querySelectorAll('.section').forEach(function(section) {
+                section.classList.toggle('open');
+            });
+        });
+    } else {
+        console.error('Nav toggler or aside element not found!');
+    }
+});
 
-navTogglerBtn.addEventListener('click', asideSectionTogglerBtn);
-
-function asideSectionTogglerBtn() 
-{
-    aside.classList.toggle('open');
-    navTogglerBtn.classList.toggle('open');
-    for (let i = 0; i < totalSection; i++) {
-        allSection[i].classList.toggle('open');
+function asideSectionTogglerBtn() {
+    const aside = document.querySelector('.aside');
+    const navTogglerBtn = document.querySelector('.nav-toggler');
+    
+    if (aside && navTogglerBtn) {
+        aside.classList.toggle('open');
+        navTogglerBtn.classList.toggle('open');
+        
+        document.querySelectorAll('.section').forEach(function(section) {
+            section.classList.toggle('open');
+        });
     }
 }
+
+// Force load Font Awesome if needed
+window.addEventListener('load', function() {
+    // Check if Font Awesome is loaded correctly
+    const faTest = document.querySelector('.fa');
+    if (faTest && window.getComputedStyle(faTest).fontFamily !== 'FontAwesome') {
+        console.warn('Font Awesome may not be loaded correctly');
+    }
+});
