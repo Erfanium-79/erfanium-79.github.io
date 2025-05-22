@@ -1,2 +1,3 @@
-# Here is my best try to create a personal website (from a tempelate)
+# Here is my best attempt at creating a personal website (from a template).
+
 #### I actually don't hate You Mikaeil!
