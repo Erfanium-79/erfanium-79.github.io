@@ -156,13 +156,16 @@ function updateNav(element)
     }
 }
 
-document.querySelector('.hire-me').addEventListener('click', function(){
-    const sectionIndex = this.getAttribute('data-section-index');
-    addBackSectionClass(sectionIndex);
-    showSection(this);
-    updateNav(this);
-    removeBackSectionClass();
-});
+const hireMeBtn = document.querySelector('.hire-me');
+if (hireMeBtn) {
+    hireMeBtn.addEventListener('click', function(){
+        const sectionIndex = this.getAttribute('data-section-index');
+        addBackSectionClass(sectionIndex);
+        showSection(this);
+        updateNav(this);
+        removeBackSectionClass();
+    });
+}
 
 function showSection(element) 
 {
